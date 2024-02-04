@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hakuna Matata: The programmer's mantra for a bug-free life...</title>
+
+    <link
+      rel="shortcut icon"
+      href="./assets/images/ag_avatar.jpg"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <!-- Contact card -->
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/ag_avatar.jpg"
+              alt="Ashwini Gupta"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Ashwini Gupta</h1>
+
+            <p class="title">.NET Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:ashwini@fnlsg.in" class="contact-link"
+                  >ashwini@fnlsg.in</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Pune, Maharashtra, IN</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://twitter.com/fnlsg" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/ashwinigupta4455/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- Nav -->
+
+      <div class="main-content">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- About -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I speak fluent .NET-ese – I'm basically a developer in the cosmic
+              coding universe, where my preferred language is C# and my favorite
+              constellation is Visual Studio and VS Code!
+            </p>
+
+            <p>
+              Hakuna Matata: The programmer's mantra for a bug-free life. No
+              worries about compile errors, no fretting over deadlines – just
+              worry-free coding in the digital jungle. Hakuna Matata, where
+              semicolons and curly braces peacefully coexist, and every error
+              message is just a passing storm. Embrace the code, feel the flow,
+              and remember, in programming, it means no errors for the rest of
+              your coding days!
+            </p>
+          </section>
+
+          <!-- Work Description -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What I Do</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">.NET</h4>
+
+                  <p class="service-item-text">
+                    Crafting digital masterpieces in the .NET realm.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                  <p class="service-item-text">
+                    I'm the proud captain of the Flutterati! Leading a team of
+                    Flutter Developers, where widgets are our weapons, and bugs
+                    tremble at the sound of our laughter. We turn pixels into
+                    perfection and errors into inside jokes.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- Resume  -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">BML Munjal University</h4>
+                <span>2014 — 2018</span>
+
+                <p class="timeline-text">
+                  I completed the epic quest known as 'Graduation,' a four-year
+                  marathon.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Red Rose School</h4>
+                <span>👶 — 2014</span>
+
+                <p class="timeline-text">
+                  The rollercoaster ride of knowledge.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Senior Product Engineer</h4>
+                <span>DeltaX</span>
+                <span>2022 — Present</span>
+
+                <p class="timeline-text">
+                  I'm the proud captain of the Flutterati! Leading a team of
+                  Flutter Developers, where widgets are our weapons, and bugs
+                  tremble at the sound of our laughter. We turn pixels into
+                  perfection and errors into inside jokes.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Product Engineer</h4>
+                <span>DeltaX</span>
+                <span>2018 — 2022</span>
+
+                <!-- <p class="timeline-text">
+                  TODO
+                </p> -->
+              </li>
+            </ol>
+          </section>
+        </article>
+
+        <!-- Blog -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <!-- <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-1.jpg"
+                      alt="Design conferences in 2022"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Design conferences in 2022
+                    </h3>
+
+                    <p class="blog-text">
+                      Veritatis et quasi architecto beatae vitae dicta sunt,
+                      explicabo.
+                    </p>
+                  </div>
+                </a>
+              </li> -->
+
+              <p class="service-item-text">
+                Thanks for the journey so far. Stay tuned for the next
+                adventure!
+              </p>
+
+              <p class="service-item-text">
+                This site stands tall on the shoulders of a remarkable GitHub
+                repository -
+                <a
+                  href="https://github.com/codewithsadee/vcard-personal-portfolio"
+                  >https://github.com/codewithsadee/vcard-personal-portfolio</a
+                >
+              </p>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
